@@ -35,7 +35,12 @@
             android:onClick="toP3"
             />
     </LinearLayout>
-
+    <TextView
+        android:id="@+id/mainTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        />
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"

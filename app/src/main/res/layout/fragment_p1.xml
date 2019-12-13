@@ -14,6 +14,12 @@
         android:layout_height="wrap_content"
         android:text="P1B1"
         />
+    <Button
+        android:id="@+id/p1b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="P1B2"
+        />
     <TextView
         android:id="@+id/P1TV1"
         android:layout_width="wrap_content"
