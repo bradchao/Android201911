@@ -5,6 +5,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -27,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+//    public void clickB1(View view){
+//        Log.v("brad", "OK");
+//    }
 
     public void toP1(View view) {
         FragmentTransaction transaction = fmgr.beginTransaction();
