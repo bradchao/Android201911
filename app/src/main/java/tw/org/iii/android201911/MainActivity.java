@@ -5,6 +5,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
     private P1 p1;
@@ -25,5 +26,21 @@ public class MainActivity extends AppCompatActivity {
         transaction.commit();
 
 
+    }
+
+    public void toP1(View view) {
+        FragmentTransaction transaction = fmgr.beginTransaction();
+        transaction.replace(R.id.container, p1);
+        transaction.commit();
+    }
+    public void toP2(View view) {
+        FragmentTransaction transaction = fmgr.beginTransaction();
+        transaction.replace(R.id.container, p2);
+        transaction.commit();
+    }
+    public void toP3(View view) {
+        FragmentTransaction transaction = fmgr.beginTransaction();
+        transaction.replace(R.id.container, p3);
+        transaction.commit();
     }
 }
